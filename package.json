@@ -1,0 +1,9 @@
+{
+  "name": "hardcore-ui-prototypes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:all": "node scripts/run-all.mjs install",
+    "dev": "node scripts/run-all.mjs dev"
+  }
+}

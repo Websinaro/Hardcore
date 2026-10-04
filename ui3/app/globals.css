@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --accent: #1f7a45; --accent-fg: #ffffff; --ink: #14201a; --surface: #ffffff; --line: #e3e8e4;
+  --soft: #f4f6f3; --radius: 1.75rem; --radius-sm: 999px;
+}
+@theme inline {
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { background: #fff; color: var(--ink); font-family: var(--font-sans); }
+.font-display { font-optical-sizing: auto; letter-spacing: -0.02em; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
